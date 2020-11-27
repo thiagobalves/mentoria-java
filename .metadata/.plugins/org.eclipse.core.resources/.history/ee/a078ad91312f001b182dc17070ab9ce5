@@ -1,0 +1,23 @@
+package mentoria.thiagoalves;
+import java.util.Scanner;
+
+public class EntreNumeros {
+
+	public static void main(String[] args) {
+		Scanner primeiroNumero = new Scanner(System.in);
+		
+		System.out.println("Informe o primeiro número: ");
+		int numero1 = primeiroNumero.nextInt();
+		primeiroNumero.close();
+		
+		Scanner segundoNumero = new Scanner(System.in);
+		
+		System.out.println("Informe o segundo número: ");
+		int numero2 = segundoNumero.nextInt();
+		segundoNumero.close();
+		
+		
+		
+		
+	}
+}
