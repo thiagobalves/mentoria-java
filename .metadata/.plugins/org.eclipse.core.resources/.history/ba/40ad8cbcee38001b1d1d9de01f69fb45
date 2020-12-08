@@ -1,0 +1,12 @@
+package com.thiagoalves.cursojava.aula11;
+
+public class CuriosidadeInt {
+	
+	public static void main(String[] args) {
+		
+	int idade03 = 2147483647;
+		
+	long idade04 = 23;
+	}
+
+}

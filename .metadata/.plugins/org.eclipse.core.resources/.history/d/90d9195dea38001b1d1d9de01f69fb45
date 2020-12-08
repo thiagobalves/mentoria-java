@@ -1,0 +1,9 @@
+package com.thiagoalves.cursojava.aula11;
+
+public class VariaveisInteiras {
+	public static void main(String[] args) {
+		
+		byte idade = 01;
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.thiagoalves.cursojava.aula11;
+
+public class VariaveisPontoFlutuante {
+	
+	public static void main(String[] args) {
+	
+		
+	}
+
+}
