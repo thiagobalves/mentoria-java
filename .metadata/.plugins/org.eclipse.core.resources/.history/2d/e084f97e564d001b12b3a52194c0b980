@@ -1,0 +1,10 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class PeixariaJoao {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

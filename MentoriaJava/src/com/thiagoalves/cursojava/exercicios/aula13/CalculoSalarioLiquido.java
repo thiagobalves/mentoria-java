@@ -1,0 +1,47 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalculoSalarioLiquido {
+	
+	public static void main(String[] args) {
+		
+		final int ir = 11;
+		final int inss = 8;
+		final int sindicato = 5;
+		final int divisor = 100;
+		
+		Scanner valorHora = new Scanner(System.in);
+		
+		System.out.println("Quanto você ganha por hora?");
+		double ganhoPorHora = valorHora.nextDouble();
+		
+		Scanner horas = new Scanner(System.in);
+		
+		System.out.println("Quantas horas você trabalhou no último mês?");
+		double horasTrabalhadas = horas.nextDouble();
+		
+		valorHora.close();
+		horas.close();
+		
+		double salarioBruto = ganhoPorHora * horasTrabalhadas;
+		double descontoInss = (salarioBruto / divisor) * inss;
+		double descontoSindicato = (salarioBruto / divisor) * sindicato;
+		double descontoIr = (salarioBruto / divisor) * ir;
+		double salarioLiquido = salarioBruto - descontoInss - descontoSindicato - descontoIr;
+		
+		
+		System.out.println("Seu salário bruto é R$: " + salarioBruto);
+		System.out.println("Você pagou: R$ " + descontoInss + " ao INSS.");
+		System.out.println("Você pagou: R$ " + descontoSindicato + " ao sindicato.");
+		System.out.println("Seu salário líquido será de: R$ " + salarioLiquido);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

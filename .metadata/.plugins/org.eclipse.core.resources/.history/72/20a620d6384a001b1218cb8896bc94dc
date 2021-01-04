@@ -1,0 +1,20 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalcularAreaCirculo {
+
+	public static void main(String[] args) {
+		
+		Scanner raio = new Scanner(System.in);
+		
+		int raioInformado = raio.nextInt();
+		
+		raio.close();
+		
+		int calculoDaArea = raioInformado * 2;
+		
+		System.out.Println("A área do círculo é de: " + calculodDaArea);
+		
+	}
+	
+}

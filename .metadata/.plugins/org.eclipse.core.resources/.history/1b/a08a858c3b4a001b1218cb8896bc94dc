@@ -1,0 +1,10 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+
+public class CalculaAreaQuadrado {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

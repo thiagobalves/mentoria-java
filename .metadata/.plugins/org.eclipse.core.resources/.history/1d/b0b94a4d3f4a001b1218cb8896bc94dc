@@ -1,0 +1,13 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class ConversorCelsiousParaFarenheit {
+
+	public static void main(String[] args) {
+		
+		Scanner graus = new Scanner(System.in) {
+			
+		}		
+		
+	}
+}

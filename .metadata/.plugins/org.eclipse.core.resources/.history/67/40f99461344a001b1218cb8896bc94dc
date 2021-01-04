@@ -1,0 +1,11 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class PedidoNumero {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

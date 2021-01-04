@@ -1,0 +1,17 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class Conversao {
+	
+	public static void main(String[] args) {
+		
+		Scanner numero = new Scanner(System.in);
+		
+		System.out.println("Qual o valor em metros que deseja converter?");
+		int metros = numero.nextInt();
+		
+		
+		
+	}
+
+}

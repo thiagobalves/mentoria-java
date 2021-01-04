@@ -1,0 +1,29 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalculoSalarioLiquido {
+	
+	public static void main(String[] args) {
+		
+		Scanner valorHora = new Scanner(System.in);
+		
+		System.out.println("Quanto você ganha por hora?");
+		double ganhoPorHora = valorHora.nextDouble();
+		
+		Scanner horas = new Scanner(System.in);
+		
+		System.out.println("Quantas horas você trabalhou no último mês?");
+		double horasTrabalhadas = horas.nextDouble();
+		
+		valorHora.close();
+		horas.close();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

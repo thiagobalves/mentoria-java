@@ -1,0 +1,26 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalculoPinturaArea {
+
+	public static void main(String[] args) {
+		
+		final int tamanhoLataDeTinta = 18;
+		final double precoDaLataDeTinta = 80.0;
+		
+		Scanner area = new Scanner(System.in);
+		
+		System.out.println("Informe o tamanho da área a ser pintada (em metros)");
+		int areaPintura = area.nextInt();
+		
+		area.close();
+		
+		double litrosDeTinta = Math.round(areaPintura / 3);
+		double quantidadeDeLatas = Math.round(litrosDeTinta / tamanhoLataDeTinta);
+		double custoTotal = quantidadeDeLatas * precoDaLataDeTinta;
+		
+		System.out.println("Para pintar " + areaPintura + " M². Você vai precisar de " + litrosDeTinta + " litros de tinta.");
+		System.out.println("Será necessário " + quantidadeDeLatas + " latas de tinta.");
+		System.out.println("O custo total será de R$ " + custoTotal);		
+	}
+}

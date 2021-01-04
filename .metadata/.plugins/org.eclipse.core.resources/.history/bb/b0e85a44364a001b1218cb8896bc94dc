@@ -1,0 +1,15 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class Notas {
+	
+	public static void main(String[] args) {
+		
+		Scanner nota = new Scanner(System.in);
+		
+		System.out.println("Informe a primeira nota: ");
+		double nota1 = nota.nextDouble();
+		
+	}
+
+}

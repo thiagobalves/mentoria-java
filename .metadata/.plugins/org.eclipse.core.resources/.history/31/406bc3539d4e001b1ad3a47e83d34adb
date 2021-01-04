@@ -1,0 +1,22 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalculaAreaQuadrado {
+	
+	public static void main(String[] args) {
+		
+		Scanner numeroInformado = new Scanner(System.in);
+		
+		System.out.println("Informe o valor de um dos lado do quadrado: ");
+		int valorLado = numeroInformado.nextInt();
+		
+		numeroInformado.close();
+		
+		int areaQuadrado = (valorLado * valorLado) * 2;
+		
+		System.out.println("o dobro da área do quadrado é igual a: " + areaQuadrado);
+		
+		
+	}
+
+}

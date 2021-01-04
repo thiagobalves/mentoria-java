@@ -1,0 +1,28 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalculoPesoIdeal2 {
+	
+	public static void main(String[] args) {
+		
+		Scanner altura = new Scanner(System.in);
+		
+		System.out.println("Informe a altura da pessoa:");
+		double alturaPessoa = altura.nextDouble();
+		
+		altura.close();
+		
+		Scanner sexo = new Scanner(System.in);
+		
+		System.out.println("Infome o sexo da pessoa (1 para homem - 2 para mulher)");
+		int sexoPessoa = sexo.nextInt();
+		
+		sexo.close();
+		
+		
+		
+		
+		
+	}
+
+}

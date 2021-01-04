@@ -1,0 +1,15 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalculoPinturaArea {
+
+	public static void main(String[] args) {
+		
+		Scanner area = new Scanner(System.in);
+		
+		System.out.println("Informe o tamanho da área a ser pintada (em metros)");
+		double areaPintura = area.nextDouble();
+		
+		
+	}
+}

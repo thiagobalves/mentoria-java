@@ -1,0 +1,34 @@
+package com.thiagoalves.cursojava.exercicios.aula13;
+import java.util.Scanner;
+
+public class CalculoPesoIdeal2 {
+	
+	public static void main(String[] args) {
+		
+		Scanner altura = new Scanner(System.in);
+		
+		System.out.println("Informe a altura da pessoa:");
+		double alturaPessoa = altura.nextDouble();
+		
+		altura.close();
+		
+	
+		
+		
+		
+		System.out.println(alturaPessoa);
+		
+		/*if(sexoPessoa == 1) {
+			double pesoIdeal = (72.7 * alturaPessoa) - 58;
+			System.out.println("Você é homem e tem " + alturaPessoa + " de altura." + " Seu peso ideal é: " + pesoIdeal);
+		} else {
+			double pesoIdeal = (62.1 * alturaPessoa) - 44.7;
+			System.out.println("Você é mulher e tem " + alturaPessoa + " de altura." + " Seu peso ideal é: " + pesoIdeal);
+			
+		}*/
+		
+		
+		
+	}
+
+}
